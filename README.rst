@@ -15,7 +15,8 @@ To achieve proper functioning of the application, I've decieded to use::
 
     - non-oficial existing code of Instagram API (login, upload photo, get list of photos, get like counts, ...)::
 
-        https://github.com/LevPasha/Instagram-API-python
+        GIT: https://github.com/LevPasha/Instagram-API-python
+        GUIDE: https://www.kdnuggets.com/2017/08/instagram-python-data-analysis.html
 
     - my implementation of Yummly API to generate and search recipes (accepted request to use it for academic purpose - 30k calls, 5-10 users)::
 
@@ -64,6 +65,7 @@ GUI part
 ---------------------
 
     *Main usage: PyQt, Requests*
+
     - provides the same options and services like the command line application, but via graffic interface
     - display photos of the Yum4FIT user's foods and short info all the time without using the command
 
@@ -72,6 +74,7 @@ Web part
 ---------------------
 
 The web part summarize short info about the user
+
 *Main usage: Flask, Requets*
 
 **Show the actual/last recipe of food**
