@@ -90,8 +90,12 @@ The web part summarize short info about the user
 Tests
 ---------------------
 
+    *Main usage: Pytest*
+
 Documentations
 ---------------------
+
+    *Main usage: Sphinx*
 
 Potential problems
 ---------------------
