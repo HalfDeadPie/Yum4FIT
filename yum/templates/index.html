@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block body %}
+<div id="mainblock">
+    <div id="header">
+        <div class="generic" id="profile_block">
+            <h1>Welcome!</h1>
+            <h2>{{ profile.username }}</h2>
+            <h3>{{ profile.full_name }}</h3>
+            <h3>{{ profile.email }}</h3>
+            <img class="profile_pic" src={{ profile.avatar }} alt="Sorry, I can't find the picture of your perfect food :(">
+            <h2>Level: {{ user.level }}</h2>
+        </div>
+    </div>
+    <div class="generic" id="description_block">
+        <p>
+            Are you hungry? Do you want to improve your cooking skills? Try Yum4FIT! Level up! Improvise. Adapt. Overcome. 42.
+        </p>
+    </div>
+    <div class="generic" id="actual_block">
+        <div id="lastText">
+            <h1>{{ last.name }}</h1>
+            <p>{{ ingredients }}</p>
+            <h2><a href={{ last.url }}>Step-by-step</a></h2>
+        </div>
+        <div id="lastImage">
+            <img src={{ last.picture }} alt="Sorry, I can't find the picture of your perfect food :(">
+        </div>
+    </div>
+    <div class="generic" id="food_block">
+        <form action="/login" method="POST">
+            <input type="username" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <input class="button" type="submit" value="YUM!">
+            {% for post in posts %}
+                <h2>
+                    <input type="checkbox" id="id_{{post[0]}}" name="food" value="{{post[0]}}">
+                    <label for="id_{{post[0]}}">{{post[0]}}</label>
+                </h2>
+                <img src={{ post[1] }} alt="Sorry, I can't find the picture of your perfect food :(">
+            {% endfor %}
+        </form>
+    </div>
+</div>
+{% endblock %}

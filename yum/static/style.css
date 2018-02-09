@@ -1,0 +1,63 @@
+body
+{
+    font-family: 'Courier New';
+    background: #FFFFFF;
+}
+
+#profile_block
+{
+    max-width: 500px;
+    background: #FFFFFF;
+    border-radius: 5%;
+}
+
+#header{
+    background-image: url("first.jpg");
+    background-repeat: repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#description_block
+{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.profile_pic {
+    border-radius: 50%;
+}
+
+.generic{
+    margin: auto;
+    text-align: center;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    font-family: 'Courier New';
+}
+
+#actual_block{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 3px;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+#food_block{
+    margin-top: 10px;
+}
