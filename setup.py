@@ -7,7 +7,7 @@ with open('README.rst') as f:
 
 setup(
     name='Yum4FIT_halfdeadpie',
-    version='0.3.4',
+    version='0.3.5.7',
     description='Level up in your cooking skills',
     long_description=long_description,
     author='Simon Stefunko',

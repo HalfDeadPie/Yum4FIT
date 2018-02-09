@@ -41,7 +41,7 @@ def upload(username, password, path, caption, url):
     :return:
     """
     login(username, password)
-    print(ig.uploadPhoto(path, caption))
+    ig.uploadPhoto(path, caption)
     print('Uploading finished.')
     connector.post(url + 'reload', "", password)
 
@@ -110,6 +110,7 @@ def sumLikes(allMedia, hashtag, friendsFile):
                 summary += int(likes_count)
     user = state.State(summary,True)
     return user
+
 
 def gainFromId(allMedia, hashtag, id):
     """

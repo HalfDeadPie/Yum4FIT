@@ -57,6 +57,10 @@ def gain(ctx, id):
     password = Parser.getPassword(ctx.obj['password'], config)
     hashtag = Parser.get(config, 'instagram', 'hashtag')
     friendsFile = ctx.obj['friends_file']
+    serverURL = ctx.obj['server_url']
+
+    setConfirmed(password, serverURL)
+
     result = acc.gain(username, password, hashtag, id, friendsFile)
 
     if not id:
@@ -155,6 +159,27 @@ def recipe(ctx, diet, allergy, cuisine, exclude_cuisine, ingredient, exclude_ing
 @click.pass_context
 def run(ctx):
     gui.GUI( ctx.obj['config'] )
+
+def setConfirmed(password, url):
+    response = connector.post(url+'confirmated', "", password)
+    parser = Parser.parse(CONST.FRIENDS_FILE)
+    friends = parser.sections()
+    data = json.loads(response.text)
+
+    sections = []
+    fields = []
+    for local in friends:
+        for new in data:
+            extern = new.split('--')[0]
+            if extern == local:
+                sections.append(local)
+                fields.append(data[new])
+
+    for s in sections:
+        for f in fields:
+            Parser.updateSection(CONST.FRIENDS_FILE, s, f, 'yes')
+
+
 
 if __name__ == '__main__':
     cli(obj={})
