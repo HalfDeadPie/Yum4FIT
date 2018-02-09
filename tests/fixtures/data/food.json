@@ -1,0 +1,70 @@
+"{'yield': '2 servings', 'nutritionEstimates': [{'attribute': 'FAT_KCAL', 'description': None, 'value': 60.0, 'unit': {'id': 'fea252f8-9888-4365-b005-e2c63ed3a776', 'name': 'calorie
+'\n, 'abbreviation': 'kcal', 'plural': 'calories', 'pluralAbbreviation': 'kcal', 'decimal': True}}, {'attribute': 'K', 'description': 'Potassium, K', 'value': 0.48, 'unit': {'id': '
+124\n85d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FLD', 'description'
+: 'Fl\nuoride, F', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decim
+al': Tr\nue}}, {'attribute': 'PHYSTR', 'description': 'Phytosterols', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plur
+al': 'gra\nms', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FASAT', 'description': 'Fatty acids, total saturated', 'value': 4.62, 'unit': {'id': '12485d26-6e69-
+102c-9a8a-0\n030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FOLDFE', 'description': 'Folate,
+DFE', 'value'\n: 4.56, 'unit': {'id': '4d783ee4-aa07-4958-84bf-3f4b528049dc', 'name': 'mcg_DFE', 'abbreviation': 'mcg_DFE', 'plural': 'mcg_DFE', 'pluralAbbreviation': 'mcg_DFE', 'de
+cimal': False}}\n, {'attribute': 'GALS', 'description': 'Galactose', 'value': 0.16, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plur
+al': 'grams', 'pl\nuralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'GLUS', 'description': 'Glucose (dextrose)', 'value': 1.65, 'unit': {'id': '12485d26-6e69-102c-9a8a-0
+030485841f8', 'name\n': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FOLFD', 'description': 'Folate, food', 'valu
+e': 0.0, 'unit': {'id\n': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribu
+te': 'ENERC_KJ', 'descr\niption': 'Energy', 'value': 640.01, 'unit': {'id': 'fea252f8-9888-4365-b005-e2c63ed3a776', 'name': 'calorie', 'abbreviation': 'kcal', 'plural': 'calories',
+'pluralAbbreviation': 'kc\nal', 'decimal': True}}, {'attribute': 'ASP_G', 'description': 'Aspartic acid', 'value': 0.16, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name
+': 'gram', 'abbreviation':\n'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FRUS', 'description': 'Fructose', 'value': 1.32, 'unit': {'id':
+'12485d26-6e69-102c-9a8a-003\n0485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'TOCPHA', 'descript
+ion': 'Vitamin E (alpha-tocoph\nerol)', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviat
+ion': 'grams', 'decimal': True}}\n, {'attribute': 'WATER', 'description': 'Water', 'value': 284.15, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviat
+ion': 'g', 'plural': 'grams', 'plu\nralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'RETOL', 'description': 'Retinol', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9
+a8a-0030485841f8', 'name': 'gram', '\nabbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'SUGAR', 'description': 'Sugars, total',
+ 'value': 21.87, 'unit': {'id': '12485\nd26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {
+'attribute': 'FAMS', 'description': 'Fat\nty acids, total monounsaturated', 'value': 1.98, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g'
+, 'plural': 'grams', 'pluralAbbreviation':\n 'grams', 'decimal': True}}, {'attribute': 'ASH', 'description': 'Ash', 'value': 0.66, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841
+f8', 'name': 'gram', 'abbreviation': 'g', 'p\nlural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'SE', 'description': 'Selenium, Se', 'value': 0.0, 'un
+it': {'id': '12485d26-6e69-102c-9a8a-003048584\n1f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FIBTG'
+, 'description': 'Fiber, total dietary', 'value'\n: 1.19, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbre
+viation': 'grams', 'decimal': True}}, {'attribute'\n: 'PROCNT', 'description': 'Protein', 'value': 2.9, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbre
+viation': 'g', 'plural': 'grams', 'pluralAbbreviatio\nn': 'grams', 'decimal': True}}, {'attribute': 'CHOCDF', 'description': 'Carbohydrate, by difference', 'value': 41.82, 'unit': {
+'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name':\n'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'FOL', 'descri
+ption': 'Folate, total', 'value': 0.0, 'unit': {'id': '\n12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams'
+, 'decimal': True}}, {'attribute': 'VITK', 'description':\n 'Vitamin K (phylloquinone)', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbrev
+iation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'gra\nms', 'decimal': True}}, {'attribute': 'F18D0', 'description': '18:0', 'value': 0.66, 'unit': {'id': '12485d26-6e69-102c-
+9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plu\nral': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'LUT+ZEA', 'description': 'Lutein + zea
+xanthin', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a\n-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': Tr
+ue}}, {'attribute': 'CHOLE', 'description': 'Cholesterol', 'value\n': 0.03, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'gr
+ams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute\n': 'P', 'description': 'Phosphorus, P', 'value': 0.09, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'n
+ame': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbrevia\ntion': 'grams', 'decimal': True}}, {'attribute': 'PANTAC', 'description': 'Pantothenic acid', 'value': 0.0, 'u
+nit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'a\nbbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'CHOLN
+', 'description': 'Choline, total', 'value': 0.03, 'unit': {'id': '12485d\n26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviati
+on': 'grams', 'decimal': True}}, {'attribute': 'CA', 'description': 'Calciu\nm, Ca', 'value': 0.1, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviati
+on': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}\n, {'attribute': 'MG', 'description': 'Magnesium, Mg', 'value': 0.03, 'unit': {'id': '12485d26-6e69-102
+c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', '\npluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'F14D0', 'description': '14:0', 'valu
+e': 0.66, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram',\n'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribu
+te': 'VITA_RAE', 'description': 'Vitamin A, RAE', 'value': 78.67, 'unit': {'id': '\n0fcf76b3-891a-403d-883f-58c8809ef151', 'name': 'mcg_RAE', 'abbreviation': 'mcg_RAE', 'plural': 'm
+cg_RAE', 'pluralAbbreviation': 'mcg_RAE', 'decimal': False}}, {'attribute': 'CRYPX',\n 'description': 'Cryptoxanthin, beta', 'value': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a-00
+30485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviati\non': 'grams', 'decimal': True}}, {'attribute': 'GLU_G', 'description': 'Glutamic acid', 'valu
+e': 0.66, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbrev\niation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attrib
+ute': 'F16D0', 'description': '16:0', 'value': 1.98, 'unit': {'id': '12485d26-6e69-102c-9a\n8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbrevia
+tion': 'grams', 'decimal': True}}, {'attribute': 'F18D1', 'description': '18:1 undifferentia\nted', 'value': 1.98, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gr
+am', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}},\n {'attribute': 'CARTB', 'description': 'Carotene, beta', 'value': 0.0, 'unit': {'id':
+ '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams',\n 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attribute': 'VITA_IU', 'descri
+ption': 'Vitamin A, IU', 'value': 293.76, 'unit': {'id': 'ed46fe0c-44fe-4c1f-b3a8-880f92e30930', '\nname': 'IU', 'abbreviation': 'IU', 'plural': 'IU', 'pluralAbbreviation': 'IU', 'd
+ecimal': True}}, {'attribute': 'ENERC_KCAL', 'description': 'Energy', 'value': 213.65, 'unit': {'id'\n: 'fea252f8-9888-4365-b005-e2c63ed3a776', 'name': 'calorie', 'abbreviation': 'k
+cal', 'plural': 'calories', 'pluralAbbreviation': 'kcal', 'decimal': True}}, {'attribute': 'VITC', 'de\nscription': 'Vitamin C, total ascorbic acid', 'value': 0.12, 'unit': {'id': '
+12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAb\nbreviation': 'grams', 'decimal': True}}, {'attribute': 'FAT', 'description'
+: 'Total lipid (fat)', 'value': 7.26, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram\n', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams',
+ 'decimal': True}}, {'attribute': 'VITD-', 'description': 'Vitamin D', 'value': 5.28, 'unit': {'id': 'ed46fe\n0c-44fe-4c1f-b3a8-880f92e30930', 'name': 'IU', 'abbreviation': 'IU', 'p
+lural': 'IU', 'pluralAbbreviation': 'IU', 'decimal': True}}, {'attribute': 'ZN', 'description': 'Zinc, Zn', 'v\nalue': 0.0, 'unit': {'id': '12485d26-6e69-102c-9a8a-0030485841f8', 'n
+ame': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbreviation': 'grams', 'decimal': True}}, {'attrib\nute': 'NA', 'description': 'Sodium, Na', 'value': 0.06, 'unit': {'i
+d': '12485d26-6e69-102c-9a8a-0030485841f8', 'name': 'gram', 'abbreviation': 'g', 'plural': 'grams', 'pluralAbbrevi\nation': 'grams', 'decimal': True}}], 'prepTimeInSeconds': 60, 'to
+talTime': '1 min', 'images': [{'hostedSmallUrl': 'http://lh5.ggpht.com/HzTkeAA4YrgoICJN6Dx7-9wpQ5ff1Up_Sx0b301QTDNJV\nKaHmTXddhQPe2rqkH99zrzXcPw1eo7iPJ-vrYt4dg=s90', 'hostedMediumUr
+l': 'http://lh5.ggpht.com/HzTkeAA4YrgoICJN6Dx7-9wpQ5ff1Up_Sx0b301QTDNJVKaHmTXddhQPe2rqkH99zrzXcPw1eo7iPJ-vrYt4dg=s180'\n, 'hostedLargeUrl': 'http://lh5.ggpht.com/HzTkeAA4YrgoICJN6Dx
+7-9wpQ5ff1Up_Sx0b301QTDNJVKaHmTXddhQPe2rqkH99zrzXcPw1eo7iPJ-vrYt4dg=s360', 'imageUrlsBySize': {'90': 'http://lh6.ggpht.c\nom/7p9VN7JtVjNM0Uhe1kjRXAQYssebo89vsJmV2vcUeh2WWqFMFEYQTgm1
+UYtO-AJUBQisUXjrABoyq8ajj626jA=s90-c', '360': 'http://lh6.ggpht.com/7p9VN7JtVjNM0Uhe1kjRXAQYssebo89vsJmV2vcUeh2WWqFMFEYQTg\nm1UYtO-AJUBQisUXjrABoyq8ajj626jA=s360-c'}}], 'name': 'Che
+rry-Berry Spider', 'source': {'sourceDisplayName': 'AllRecipes', 'sourceSiteUrl': 'http://www.allrecipes.com', 'sourceRecipe\nUrl': 'http://allrecipes.com/recipe/20190/cherry-berry-
+spider/'}, 'prepTime': '1 Min', 'id': 'Cherry_berry-Spider-Allrecipes', 'ingredientLines': ['4 cherries', '4 blueberries', '2\ntablespoons raspberry syrup', '2 cups prepared lemonad
+e', '2 scoops vanilla ice cream'], 'attribution': {'html': \"<a href='http://www.yummly.co/recipe/Cherry_berry-Spider-Allrecipes\n'>Cherry-Berry Spider recipe</a> information powere
+d by <img alt='Yummly' src='https://static.yummly.co/api-logo.png'/>\", 'url': 'http://www.yummly.co/recipe/Cherry_berry-Spider-All\nrecipes', 'text': 'Cherry-Berry Spider recipes:
+information powered by Yummly', 'logo': 'https://static.yummly.co/api-logo.png'}, 'numberOfServings': 2, 'totalTimeInSeconds': 60, 'a\nttributes': {'holiday': ['Halloween', 'Summer'
+], 'course': ['Beverages', 'Desserts']}, 'flavors': {}, 'rating': 4}"

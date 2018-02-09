@@ -1,0 +1,16 @@
+include LICENSE
+include tests/*
+include tests/fixtures/*
+include tests/fixtures/cassettes/*
+include tests/fixtures/configs/*
+include tests/fixtures/data/*
+
+include yum/*
+include yum/static/*
+include yum/templates/*
+include yum/mainwindow.ui
+
+include docs/*
+include docs/_static/*
+include docs/_templates/*
+include docs/auto/*
