@@ -68,7 +68,6 @@ class Client():
         }
 
         result = requests.get(URL_METADATA + key , headers=headers)
-        print(requests.get(URL_METADATA + key , headers=headers).url)
         return result
 
 def post(url, data, password):
@@ -82,12 +81,10 @@ def post(url, data, password):
     result = None
     headers = { 'password' : password }
 
-    print(url)
     # try because the server may be down
     try:
         result = requests.post(url,json=data, headers=headers )
         return result
     except:
-        print("EXCEPTION")
         pass
 

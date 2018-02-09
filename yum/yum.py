@@ -50,7 +50,6 @@ class Yum():
 
         result = self.conn.get(id)
         actual = food.Food(result.json())
-        print("food created")
         self.saveRecipe(actual, config)
         return actual
 

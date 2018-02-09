@@ -1,4 +1,5 @@
 import configparser
+import json
 import sys
 
 import os
@@ -175,3 +176,32 @@ def has_field(file, section, field):
         return True
     else:
         return False
+
+def getConfirmated(friendsFile):
+    parser = parse(friendsFile)
+    sections = parser.sections()
+    confirmated = []
+    if (len(sections) == 0):
+        return None
+    else:
+        for friend in sections:
+            for food in parser.options(friend):
+                if parser[friend][food] == 'yes':
+                    confirmated.append(friend +" "+ food)
+        return confirmated
+
+def buildJson(self, fields, values):
+    """
+    Builds json
+    :param fields: fields for json
+    :param values: values for fields in json
+    :return: json
+    """
+    i = 0
+    data = {}
+    for field in fields:
+        data[field] = values[i]
+        i += 1
+
+    json_data = json.dumps(data)
+    return json_data

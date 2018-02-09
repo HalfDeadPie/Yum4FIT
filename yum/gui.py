@@ -270,6 +270,14 @@ class GUI():
         Support function to gain XP from likes
         """
         state = account.gain(self.profile.username, self.password, self.hashtag, None, CONSTANTS.FRIENDS_FILE)
+        data = { 'likes' : str(state.likes),
+                 'level' : str(state.level),
+                 'xp' : str(state.xp )
+                 }
+        json_data = json.dumps(data)
+        url = Parser.get(self.config, 'server', 'url')
+        url += 'gain'
+        connector.post(url, json_data, self.password)
         self.loadState()
 
     def redirect(self):

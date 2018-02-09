@@ -115,6 +115,18 @@ def reload():
 
     return "200"
 
+@app.route('/confirmated', methods=['POST'])
+def confirmated():
+    """
+    Send back to client confirmated friends
+    :return: Confirmated friends
+    """
+    method = request.method
+    if(method == "POST" and checkPassword(request, app.admin_password)):
+        return getConfirmated(app.config)
+
+
+
 @cli.command()
 @click.pass_context
 @click.option('--host', '-h', default="127.0.0.1")
@@ -208,3 +220,35 @@ def checkPassword(request, password):
 
     print("wrong password")
     return False
+
+def getConfirmated(config):
+    friends = Parser.getConfirmated(CONST.FRIENDS_FILE)
+    return produceJson(friends)
+
+def produceJson(confirmated):
+    friends = []
+    foods = []
+
+    for line in confirmated:
+        word = line.split(" ")
+        friends.append(word[0])
+        foods.append(word[1])
+
+    json = buildJson(friends, foods)
+    return json
+
+def buildJson(fields, values):
+    """
+    Builds json
+    :param fields: fields for json
+    :param values: values for fields in json
+    :return: json
+    """
+    i = 0
+    data = {}
+    for field in fields:
+        data[field+'--'+values[i]] = values[i]
+        i += 1
+
+    json_data = json.dumps(data)
+    return json_data
