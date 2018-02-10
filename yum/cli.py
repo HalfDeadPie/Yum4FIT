@@ -164,6 +164,8 @@ def setConfirmed(password, url):
     response = connector.post(url+'confirmated', "", password)
     parser = Parser.parse(CONST.FRIENDS_FILE)
     friends = parser.sections()
+    if not response:
+        return
     data = json.loads(response.text)
 
     sections = []
