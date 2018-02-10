@@ -61,8 +61,8 @@ After proper configuration, the user is able to use application's functionality.
 
             yum share [OPTIONS] PATH
 
-    - Add friend connected to food, which you were eating together. The username is the username of friend on the Instagram
-        and ID is the ID of the post on Instagram with that food. You can access it using command *yum food*::
+
+    - Add friend connected to food, which you were eating together. The username is the username of friend on the Instagram and ID is the ID of the post on Instagram with that food. You can access it using command *yum food*::
 
             yum add_friend USERNAME ID
 
@@ -71,8 +71,7 @@ After proper configuration, the user is able to use application's functionality.
 
             yum run_server [OPTIONS]
 
-    - Runs the GUI part of the application. To run it properly, you must first run commands *yum recipe* and *yum gain* to access
-    the initial state::
+    - Runs the GUI part of the application. To run it properly, you must first run commands *yum recipe* and *yum gain* to access the initial state::
 
             yum run
 
