@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Simon Štefunko">
+    <title>Yum4FIT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <div id="content">
+            <div class="container">
+                {% include "header.html" %}
+
+                {% block body %}{% endblock %}
+            </div>
+        </div>
+    </main>
+    {% block scripts %}{% endblock %}
+</body>
+</html>
