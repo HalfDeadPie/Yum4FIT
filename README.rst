@@ -23,17 +23,17 @@ There is a need to take a few steps for proper functioning:
 
     - create *configuration file* for Instagram credentials, Yummly application ID and key and server url::
 
-    [instagram]
-    username = <Instagram username>
-    password = <Instagram password>
-    hashtag = #Yum4FIT
+        [instagram]
+        username = <Instagram username>
+        password = <Instagram password>
+        hashtag = #Yum4FIT
 
-    [yummly]
-    api-id = <application id>
-    api-key = <application key>
+        [yummly]
+        api-id = <application id>
+        api-key = <application key>
 
-    [server]
-    url = <server url>
+        [server]
+        url = <server url>
 
 The convention is to create a file *config.cfg* in working directory, but the user is able to set the path to configuration
 file in command line part using *-c/--config* option. Also, there is an offer to use Instagram credentials in CLI part
@@ -62,19 +62,19 @@ After proper configuration, the user is able to use application's functionality.
             yum share [OPTIONS] PATH
 
     - Add friend connected to food, which you were eating together. The username is the username of friend on the Instagram
-        and ID is the ID of the post on Instagram with that food. You can access it using command *yum food**::
+        and ID is the ID of the post on Instagram with that food. You can access it using command *yum food*::
 
             yum add_friend USERNAME ID
 
-    - yum run_server [OPTIONS]::
+    - Runs the Flask server with web representing user's state. Offers an option for the friends to confirm the food sharing.
+      Those friends, who has confirmed the sharing food has more valuable likes::
 
-      Runs the Flask server with web representing user's state. Offers an option for the friends to confirm the food sharing.
-      Those friends, who has confirmed the sharing food has more valuable likes.
+            yum run_server [OPTIONS]
 
-    - yum run::
+    - Runs the GUI part of the application. To run it properly, you must first run commands *yum recipe* and *yum gain* to access
+    the initial state::
 
-    Runs the GUI part of the application. To run it properly, you must first run commands *yum recipe* and *yum gain* to access
-    the initial state.
+            yum run
 
 
 Documentation
