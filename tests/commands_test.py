@@ -26,6 +26,7 @@ def test_cli_gain():
     runner = CliRunner()
     result = runner.invoke(cli, [ '-u', invoker.testingUsername(),
                                 '-p', invoker.testingPassword(),
+                                '-c', invoker.configs()+invoker.real_config(),
                                 'gain'], obj={})
     assert 'Level:' in result.output
     assert 'Likes:' in result.output
@@ -38,6 +39,7 @@ def test_cli_share():
     runner = CliRunner()
     result = runner.invoke(cli,[ '-u', invoker.testingUsername(),
                                 '-p', invoker.testingPassword(),
+                                '-c', invoker.configs() + invoker.real_config(),
                                 'share',
                                  '-c',invoker.caption(),
                                  invoker.getDataPath('ramen.jpg')], obj={})
@@ -51,6 +53,7 @@ def test_cli_food():
     runner = CliRunner()
     result = runner.invoke(cli, ['-u', invoker.testingUsername(),
                                 '-p', invoker.testingPassword(),
+                                '-c', invoker.configs() + invoker.real_config(),
                                  'food'], obj={ } )
     assert result.exit_code == 0
     assert len(result.output.split(" ")) > 2

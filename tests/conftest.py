@@ -3,7 +3,6 @@ import os
 import string
 from random import choice
 
-from flexmock import flexmock
 
 
 ABS_PATH = os.path.abspath(os.path.dirname(__file__))
@@ -28,11 +27,6 @@ REAL_CONFIG = 'config.cfg'
 RANDOM_STRING = "kjojfniasjfnias"
 
 TESTING_CAPTION = 'This caption is only testing caption #testing'
-
-FAKE_CTX = flexmock(obj = {
-                            'config': 'fuck.cfg' },
-                    resilient_parsing = False,
-                    exit=lambda: None)
 
 ERROR_MSG_CONFIG = "Something is wrong with the configuration file\n"
 
